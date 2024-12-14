@@ -50,6 +50,7 @@ endif()
 # Dependencies
 find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
+find_package(zed_msgs REQUIRED)
 
 #############################################
 # Install
